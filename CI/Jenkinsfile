@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Cloning repo'
                 sh 'sudo rm -r -f my-mle-template'
-                sh 'git clone https://github.com/Better-than-Elon/my-mle-template'
+                sh 'git clone https://github.com/Better-than-Elon/mle-templete_2_db my-mle-template'
                 sh 'cd my-mle-template'
             }
         }
